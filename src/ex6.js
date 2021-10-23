@@ -2,9 +2,10 @@
 
 const words = ['sun', 'earth', 'venus', 'star', 'mars', 'neptune', 'saturn', 'uranus', 'mercury' ];
 
-const result = // words. (word => word === 'star');
+const result = words.find (word => word === 'star');
 
 console.log('you are a ' + result);
+
 
 /* output: 
 
